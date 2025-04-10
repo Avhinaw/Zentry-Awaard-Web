@@ -45,7 +45,7 @@ body {
   --size-dvh: 90vh;
   --size-gallery-img: 64px;
   --size-gallery-img-lg: 80px;
-  --size-about-img-width: 96px;
+  --size-about-img-width: 500px;
   --size-indicator-line-height: 4px;
   --size-indicator-line-width: 1px;
   --size-dot: 35px;
@@ -166,11 +166,12 @@ body {
     bottom: -80dvh;
     left: var(--size-half);
     width: var(--size-full);
-    max-width: 96px; /* max-w-96 */
+    max-width: 96px;
     transform: translateX(-50%);
     text-align: center;
     font-family: "Circular Web", sans-serif;
     font-size: 1.125rem; /* text-lg */
+    background-color: red;
   }
 
   /* About Image */
