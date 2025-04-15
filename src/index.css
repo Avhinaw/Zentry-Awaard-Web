@@ -34,7 +34,7 @@ body {
   --color-white: #ffffff; /* White color */
   --color-border: rgba(255, 255, 255, 0.2); /* White border color */
   --color-neutral-bg: #3c3c3c; /* Neutral background */
-  --color-background: #ffffff; /* Background color */
+  --color-background: black; /* Background color */
   --speed-animation: 0.8s; /* Animation speed */
   --spacing-padding: 1rem;
   
@@ -447,10 +447,8 @@ body {
   .hero-heading {
     text-transform: uppercase;
     font-family: var(--font-zentry);
-    font-weight: 900; /* font-black */
     font-size: 12rem; /* text-5xl */
     position: relative;
-    margin-right: 10px;
   }
 
   /* About Subtext */
