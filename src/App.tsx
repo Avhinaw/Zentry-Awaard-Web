@@ -1,4 +1,5 @@
 import About from "./Components/About"
+import Features from "./Components/Features"
 import Hero from "./Components/Hero"
 import NavBar from "./Components/Navbar"
 
@@ -8,6 +9,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <About />
+      <Features />
     </main>
   )
 }
