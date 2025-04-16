@@ -2,6 +2,7 @@ import About from "./Components/About"
 import Features from "./Components/Features"
 import Hero from "./Components/Hero"
 import NavBar from "./Components/Navbar"
+import FloatingImage from "./Components/Story"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
+      <FloatingImage />
     </main>
   )
 }
