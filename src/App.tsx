@@ -1,4 +1,5 @@
 import About from "./Components/About"
+import Contact from "./Components/Contact"
 import Features from "./Components/Features"
 import Hero from "./Components/Hero"
 import NavBar from "./Components/Navbar"
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Features />
       <FloatingImage />
+      <Contact />
     </main>
   )
 }
