@@ -5,6 +5,7 @@ import Footer from "./Components/Footer"
 import Hero from "./Components/Hero"
 import NavBar from "./Components/Navbar"
 import FloatingImage from "./Components/Story"
+import './index.css';
 
 const App = () => {
   return (

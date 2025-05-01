@@ -150,14 +150,10 @@ body {
     font-feature-settings: "ss01" on;
   }
 
-  /* Hero Heading */
-  .hero-heading {
-    text-transform: uppercase;
-    font-family: var(--font-zentry);
-    font-weight: 900; /* font-black */
-    font-size: 12rem; /* text-5xl */
-    position: relative;
-    margin-right: 10px;
+  @media (max-width: 600px) {
+    .hero-heading {
+      font-size: 1rem;
+    }
   }
 
   /* About Subtext */
