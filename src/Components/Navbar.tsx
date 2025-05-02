@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
+import { ReactRef } from "@gsap/react";
 
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
@@ -14,8 +15,8 @@ const NavBar = () => {
   const [isIndicatorActive, setIsIndicatorActive] = useState(false);
 
   // Refs for audio and navigation container
-  const audioElementRef = useRef(null);
-  const navContainerRef = useRef(null);
+  const audioElementRef: ReactRef = useRef(null);
+  const navContainerRef: ReactRef = useRef(null);
 
   const { y: currentScrollY } = useWindowScroll();
   const [isNavVisible, setIsNavVisible] = useState(true);
